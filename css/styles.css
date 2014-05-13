@@ -1,0 +1,230 @@
+body{
+	
+}
+article {
+	margin-bottom: 20px;
+	border-style: solid;
+	border-width: 1px;
+}
+/*
+Header
+*/
+header img#logo{
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+header h1{
+	text-align: center;
+	font-size: 210%;
+}
+
+nav {
+	border-bottom: 6px solid #6495ED;
+	margin-bottom: 20px;
+}
+
+
+nav ul {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+nav li {
+	
+	display: inline;
+	width: 5px;
+	color: #0000FF;
+	background-color: #00FFFF;
+
+}
+
+/*
+below fails to position nav bar in center of page
+???
+*/
+/*fixed issue with text-align in nav ul*/
+
+#content .articleheader {
+	background-color: #6495ED;
+	padding: 30px;
+}
+
+#content h2 {
+	font-size: 200%;
+	color: #00FFFF;
+}
+
+#content .articlebody {
+	background-color: #00FFFF;
+	padding: 30px;
+}
+
+/*also for text in foose ball block*/
+
+.articlebody p {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: 30px;
+}
+/*
+why is there such a large gap between
+paragraphs?
+*/
+#content p {
+	margin-bottom: 5px;
+}
+
+#content img {
+	float: right;
+	height: 19%;
+	width: 15%;
+	padding-left: 20px;
+	padding-bottom: 6px;
+}
+/*
+Fooseball Block
+*/
+
+.articleheader {
+	background-color: #DCDCDC;
+	padding: 30px;
+}
+
+.articleheader h2, h3 {
+	font-size: 200%;
+	color: gray;
+}
+
+
+table {
+	margin-left: 30px;
+	width: 90%;
+	border-style: solid;
+	border-width: 1px;
+	margin-bottom: 35px;
+	
+}
+
+#foose-table th {
+	background-color: #DCDCDC;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+/*
+Need to have header of table align with
+data in table ????
+*/
+
+th {
+	text-align: left;
+}
+
+td {
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*
+To-Do List 
+*/
+
+ul, ol {
+	list-style-position: inside;
+	padding: 10px;
+}
+
+
+ul {
+	margin-left: 30px;
+}
+
+
+ol {
+	margin-left: 35px;
+}
+
+
+.articlebody li {
+	list-style-type: circle;
+	/*this doesnt work, no bullets shown ????*/
+	/*fixed issue with position:inside above*/
+	padding: 10px;
+}
+
+.articlebody ol li {
+	list-style-type: decimal;
+}
+
+
+.articlebody ul li ul li {
+	list-style-type: disc; 
+}
+
+
+
+/*
+Contact Me 
+*/
+
+/*
+Padding around all elements to wide, need to find out
+how to lessen w/o losing alignment on left margin
+*/
+
+#email_input, #message_area {
+	border-width: 1px;
+	border-style: solid;
+	width: 1100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+
+/*
+Need to find out how to separate "Your Email" block from the 
+input box so that can have box drawn under it instead
+of to the right ????
+*/
+
+.form-row, #contact-form {
+	margin-left: 80px;
+}
+
+.form-row p {
+	display: block;
+	margin-left: 0px;
+}
+
+.form-left {
+	display: inline;
+	float: left;
+	width: 50%;
+}
+
+.form-left, .form-right {
+	margin-left: 25px;
+}
+
+.form-row, #first_time_visitor {
+	padding: 30px;
+	margin-left: 30px;
+}
+
+select {
+	display: block;
+	width: 1080px;
+	margin-left: 30px;
+}
+
+button {
+	margin-left: 30px;
+}
+

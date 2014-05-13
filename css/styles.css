@@ -65,13 +65,16 @@ below fails to position nav bar in center of page
 /*also for text in foose ball block*/
 
 .articlebody p {
-	padding-top: 30px;
-	padding-bottom: 30px;
-	margin-left: 30px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-left: 30px; 
 }
 /*
 why is there such a large gap between
 paragraphs?
+*/
+/*
+solved using inspect element - padding
 */
 #content p {
 	margin-bottom: 5px;
@@ -79,10 +82,9 @@ paragraphs?
 
 #content img {
 	float: right;
-	height: 19%;
-	width: 15%;
+	width: 280px;
+	height: 90px;
 	padding-left: 20px;
-	padding-bottom: 6px;
 }
 /*
 Fooseball Block
@@ -179,7 +181,7 @@ how to lessen w/o losing alignment on left margin
 
 #email_input, #message_area {
 	border-width: 1px;
-	border-style: solid;
+	border-color: gray;
 	width: 1100px;
 	display: block;
 	margin-left: auto;

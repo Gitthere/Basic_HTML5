@@ -182,10 +182,9 @@ how to lessen w/o losing alignment on left margin
 #email_input, #message_area {
 	border-width: 1px;
 	border-color: gray;
-	width: 1100px;
+	width: 1200px;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
+	
 
 }
 
@@ -197,7 +196,7 @@ of to the right ????
 */
 
 .form-row, #contact-form {
-	margin-left: 80px;
+	
 }
 
 .form-row p {
@@ -212,21 +211,18 @@ of to the right ????
 }
 
 .form-left, .form-right {
-	margin-left: 25px;
 }
 
 .form-row, #first_time_visitor {
-	padding: 30px;
-	margin-left: 30px;
+	padding: 15px;
+	
 }
 
 select {
 	display: block;
-	width: 1080px;
-	margin-left: 30px;
+	width: 1203px;
 }
 
 button {
-	margin-left: 30px;
 }
 

@@ -1,5 +1,8 @@
 body{
-	
+	/*width: 990px;*/
+	padding: 50px;
+	margin: 0 auto;
+	font-family: helvitica neue; sans sefif;
 }
 article {
 	margin-bottom: 20px;
@@ -13,7 +16,6 @@ header img#logo{
 	display: block;
 	margin: auto;
 	margin-top: 30px;
-	margin-bottom: 20px;
 }
 
 header h1{
@@ -22,8 +24,9 @@ header h1{
 }
 
 nav {
-	border-bottom: 6px solid #6495ED;
-	margin-bottom: 20px;
+	border-bottom: 6px solid #45A0C4;
+	margin-bottom: 30px;
+	margin-top: 10px;
 }
 
 
@@ -36,10 +39,15 @@ nav li {
 	
 	display: inline;
 	width: 5px;
-	color: #0000FF;
-	background-color: #00FFFF;
+	background-color: #C4E7F5;
 
 }
+
+nav li a {
+	color: #3C9AC1;
+	text-decoration: none;
+}
+/*padding will enlarge click area*/
 
 /*
 below fails to position nav bar in center of page
@@ -48,17 +56,17 @@ below fails to position nav bar in center of page
 /*fixed issue with text-align in nav ul*/
 
 #content .articleheader {
-	background-color: #6495ED;
+	background-color: #5193AD;
 	padding: 30px;
 }
 
 #content h2 {
 	font-size: 200%;
-	color: #00FFFF;
+	color: #C1E2F1;
 }
 
 #content .articlebody {
-	background-color: #00FFFF;
+	background-color: #C4E7F5;
 	padding-top: 30px;
 	padding-right: 30px;
 }
@@ -66,9 +74,10 @@ below fails to position nav bar in center of page
 /*also for text in foose ball block*/
 
 .articlebody p {
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-bottom: 20px;
+	padding-top: 0px;
 	margin-left: 30px;
+	margin-top: 0px; 
 }
 /*
 why is there such a large gap between
@@ -77,29 +86,33 @@ paragraphs?
 /*
 solved using inspect element - padding
 */
-#content p {
-	margin-bottom: 5px;
-}
 
 #content img {
 	float: right;
-	width: 280px;
-	height: 110px;
-	padding-left: 20px;
+	width: 220px;
+	height: 95px;
+	padding-left: 15px;
+	padding-bottom: 20px;
 }
 /*
 Fooseball Block
 */
 
 .articleheader {
-	background-color: #DCDCDC;
+	background-color: #EEEEEE;
 	padding: 30px;
 
 }
 
-.articleheader h2, h3 {
+.articleheader h2 {
 	font-size: 200%;
-	color: gray;
+	color: #868686;
+}
+
+
+.articleheader h3 {
+	color: #8A8A8A;
+	font-size: 150%;
 }
 
 
@@ -113,7 +126,7 @@ table {
 }
 
 #foose-table th {
-	background-color: #DCDCDC;
+	background-color: #EEEEEE;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	
@@ -126,6 +139,7 @@ data in table ????
 
 th {
 	text-align: left;
+	color: #8A8A8A;
 }
 
 td {
@@ -152,7 +166,8 @@ ol {
 	margin-left: 35px;
 }
 
-
+/* > between .articlebody and li to have affect only the nearest child and nothing else
+*/
 .articlebody li {
 	list-style-type: circle;
 	/*this doesnt work, no bullets shown ????*/
@@ -164,7 +179,7 @@ ol {
 	list-style-type: decimal;
 }
 
-
+/* also li li */
 .articlebody ul li ul li {
 	list-style-type: disc; 
 }
@@ -181,9 +196,9 @@ how to lessen w/o losing alignment on left margin
 */
 
 #email_input {
-	border-width: 1px;
-	border-color: gray;
-	width: 1200px;
+	border: 1px solid #BBBBBB;
+	
+	width: 925px;
 	display: block;
 	height: 40px;
 
@@ -192,8 +207,8 @@ how to lessen w/o losing alignment on left margin
 
 #message_area {
 	border-width: 1px;
-	border-color: gray;
-	width: 1200px;
+	border-color: #D1D1D1;
+	width: 925px;
 	display: block;
 }
 
@@ -219,6 +234,11 @@ of to the right ????
 	width: 50%;
 }
 
+.form-right {
+	float: right;
+	width: 50%;
+}
+
 .form-row, #first_time_visitor {
 	padding: 15px;
 	
@@ -226,16 +246,28 @@ of to the right ????
 
 select {
 	display: block;
-	width: 1203px;
+	width: 92px;
 }
 
 button {
 	margin-bottom: 50px;
 }
 
+
+/*to eliminate margin in html */
+
+input[type=radio] {
+	margin-left: 0px;
+}
+
+input[type=checkbox] {
+	margin-left: 0px;
+}
+
+
 footer {
 	text-align: center;
-	border-top: 6px solid #6495ED;
+	border-top: 6px solid #45A0C4;
 	margin-top: 30px;
 	padding-top: 20px;
 }

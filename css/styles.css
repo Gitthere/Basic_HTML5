@@ -2,7 +2,9 @@ body{
 	/*width: 990px;*/
 	padding: 50px;
 	margin: 0 auto;
-	font-family: helvitica neue; sans sefif;
+	font-family: "Helvitica Neue" sans-serif;
+	
+	font-size: 15px;
 }
 article {
 	margin-bottom: 20px;
@@ -21,6 +23,7 @@ header img#logo{
 header h1{
 	text-align: center;
 	font-size: 210%;
+	margin-top: 15px;
 }
 
 nav {
@@ -74,10 +77,15 @@ below fails to position nav bar in center of page
 /*also for text in foose ball block*/
 
 .articlebody p {
-	padding-bottom: 20px;
+	padding-bottom: 25px;
 	padding-top: 0px;
-	margin-left: 30px;
-	margin-top: 0px; 
+	line-height: 1.3em;
+	width: 800px;
+		}
+
+#content .articlebody	{
+	padding: 25px;
+	padding-bottom: 40px;
 }
 /*
 why is there such a large gap between
@@ -89,8 +97,8 @@ solved using inspect element - padding
 
 #content img {
 	float: right;
-	width: 220px;
-	height: 95px;
+	width: 250px;
+	height: 115px;
 	padding-left: 15px;
 	padding-bottom: 20px;
 }
@@ -228,7 +236,12 @@ of to the right ????
 	margin-left: 0px;
 }
 
+.form-row form-radio-row {
+	padding: 50px;
+}
+
 .form-left {
+	margin-top: -10px;
 	display: inline;
 	float: left;
 	width: 50%;
@@ -246,7 +259,7 @@ of to the right ????
 
 select {
 	display: block;
-	width: 92px;
+	width: 931px;
 }
 
 button {
